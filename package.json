@@ -1,0 +1,22 @@
+{
+  "name": "instagram-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "dev": "node index.js",
+    "dev:prune": "node index.js --prune",
+    "dev:save": "node save.js"
+  },
+  "dependencies": {
+    "instagram-web-api": "^2.2.2",
+    "tough-cookie-filestore2": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.10",
+    "dotenv": "^10.0.0",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.3"
+  }
+}
